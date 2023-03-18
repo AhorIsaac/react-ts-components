@@ -1,9 +1,6 @@
 import React from "react";
-import Click from "./components/Click";
+import { ClassCompI, ClassCompJ } from "./components/ClassComponent";
 import FunctionalComponent from "./components/FunctionalComponent";
-import ParentComponent from "./components/ParentComponent";
-import PureComp from "./components/PureComponent";
-import RegularComponent from "./components/RegularComponent";
 
 const App = () => {
   return (
@@ -14,14 +11,16 @@ const App = () => {
         </header>
         <main className="mt-0">
           <div className="container col-xxl-8 px-2 py-5">
-            <RegularComponent name="TypeScript" />
-            <RegularComponent name="JavaScript" />
-            <Click />
-            <Click name="Shidoon" />
-            <PureComp name="Ecady" />
-            <PureComp name="Ave" />
-            <PureComp />
-            <ParentComponent />
+            <div className="row justify-content-center align-items-center g-1 py-5">
+              <div className="col-lg-6 col-sm-12 col-lg-6 mb-sm-2">
+                {/* the introductory component */}
+                <ClassCompI />
+              </div>
+              <div className="col-lg-6 px-2">
+                {/* the carousel */}
+                <ClassCompJ />
+              </div>
+            </div>
           </div>
         </main>
         <footer></footer>
