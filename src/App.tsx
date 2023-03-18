@@ -1,6 +1,7 @@
 import React from "react";
 import Click from "./components/Click";
 import FunctionalComponent from "./components/FunctionalComponent";
+import PureComp from "./components/PureComponent";
 import RegularComponent from "./components/RegularComponent";
 
 const App = () => {
@@ -16,6 +17,9 @@ const App = () => {
             <RegularComponent name="JavaScript" />
             <Click />
             <Click name="Shidoon" />
+            <PureComp name="Ecady" />
+            <PureComp name="Ave" />
+            <PureComp />
           </div>
         </main>
         <footer></footer>
