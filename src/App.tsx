@@ -1,4 +1,5 @@
 import React from "react";
+import Click from "./components/Click";
 import FunctionalComponent from "./components/FunctionalComponent";
 import RegularComponent from "./components/RegularComponent";
 
@@ -13,6 +14,8 @@ const App = () => {
           <div className="container col-xxl-8 px-2 py-5">
             <RegularComponent name="TypeScript" />
             <RegularComponent name="JavaScript" />
+            <Click />
+            <Click name="Shidoon" />
           </div>
         </main>
         <footer></footer>
