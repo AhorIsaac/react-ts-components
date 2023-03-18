@@ -1,6 +1,7 @@
 import React from "react";
 import Click from "./components/Click";
 import FunctionalComponent from "./components/FunctionalComponent";
+import ParentComponent from "./components/ParentComponent";
 import PureComp from "./components/PureComponent";
 import RegularComponent from "./components/RegularComponent";
 
@@ -20,6 +21,7 @@ const App = () => {
             <PureComp name="Ecady" />
             <PureComp name="Ave" />
             <PureComp />
+            <ParentComponent />
           </div>
         </main>
         <footer></footer>
