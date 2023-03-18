@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import UpdatedComponent from "./HigherOrderComponent";
 
 interface IProps {
   name?: string;
@@ -61,4 +62,4 @@ export class Click extends Component<IProps, IState> {
   }
 }
 
-export default Click;
+export default UpdatedComponent(Click);

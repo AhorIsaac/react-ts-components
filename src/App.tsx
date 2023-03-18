@@ -1,5 +1,6 @@
 import React from "react";
 import { ClassCompI, ClassCompJ } from "./components/ClassComponent";
+import { Click } from "./components/Click";
 import FunctionalComponent from "./components/FunctionalComponent";
 
 const App = () => {
@@ -23,7 +24,9 @@ const App = () => {
             </div>
           </div>
         </main>
-        <footer></footer>
+        <footer>
+          <Click name="Smart Search" />
+        </footer>
       </section>
     </>
   );
